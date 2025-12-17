@@ -1,8 +1,8 @@
-# health-ecommerce-auth
+# komdigi-fsd-intermediate-modul-3-backend-health-ecommerce-auth
 
 > **JWT Authentication & Secure Coding untuk Health E-Commerce**
 
-[![Node.js](https://img.shields.io/badge/Node.js-18+-green)](https://nodejs.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-20+-green)](https://nodejs.org/)
 [![Express](https://img.shields.io/badge/Express-4.18-blue)](https://expressjs.com/)
 [![JWT](https://img.shields.io/badge/JWT-9.0-orange)](https://jwt.io/)
 [![Security](https://img.shields.io/badge/Security-OWASP-red)](https://owasp.org/)
@@ -17,7 +17,7 @@ Complete authentication & security layer untuk Health E-Commerce dengan JWT, RBA
 Repository ini berisi **2 versi project**:
 
 ```
-health-ecommerce-auth/
+komdigi-fsd-intermediate-modul-3-backend-health-ecommerce-auth/
 ├── README.md (Ini file yang kamu baca)
 ├── starter-project/     #  Untuk practice (dengan TODO)
 │   ├── README.md
@@ -52,10 +52,10 @@ health-ecommerce-auth/
 
 ```bash
 # 1. Clone repository ini
-git clone https://github.com/your-username/health-ecommerce-auth.git
+git clone https://github.com/your-username/komdigi-fsd-intermediate-modul-3-backend-health-ecommerce-auth.git
 
 # 2. Masuk ke folder repository
-cd health-ecommerce-auth
+cd komdigi-fsd-intermediate-modul-3-backend-health-ecommerce-auth
 
 # 3. Masuk ke starter-project
 cd starter-project
@@ -72,7 +72,12 @@ cp .env.example .env
 # MONGODB_URI=mongodb://localhost:27017/health-ecommerce
 
 # 7. Pastikan MongoDB Running
-# Cek dengan MongoDB Compass atau mongosh
+# CATATAN PENTING: Tidak perlu menjalankan `mongod` jika tidak jalan di localmu.
+# Pastikan saja MongoDB jalan dengan caramu, misalnya:
+# - Membuka MongoDB Compass dan akses database yang kamu tuju (misalnya local db mu)
+# - Atau jika MongoDB Compass sudah bisa connect ke mongodb://localhost:27017, berarti MongoDB sudah jalan
+# - Atau jika pakai MongoDB Atlas, pastikan cluster sudah active
+# Intinya: Pastikan MongoDB bisa diakses sesuai MONGODB_URI yang kamu set di .env
 
 # 8. Start server
 npm run dev
@@ -84,10 +89,10 @@ npm run dev
 
 ```bash
 # 1. Clone repository (jika belum)
-git clone https://github.com/your-username/health-ecommerce-auth.git
+git clone https://github.com/your-username/komdigi-fsd-intermediate-modul-3-backend-health-ecommerce-auth.git
 
 # 2. Masuk ke folder repository
-cd health-ecommerce-auth
+cd komdigi-fsd-intermediate-modul-3-backend-health-ecommerce-auth
 
 # 3. Masuk ke finished-project
 cd finished-project
@@ -477,6 +482,6 @@ _Part of Health E-Commerce Backend Series_
 
 ** Repository Info:**
 
-- **Name:** `health-ecommerce-auth`
+- **Name:** `komdigi-fsd-intermediate-modul-3-backend-health-ecommerce-auth`
 - **Type:** Authentication & Security Layer
 - **Structure:** 1 Repo, 2 Folders (starter + finished)

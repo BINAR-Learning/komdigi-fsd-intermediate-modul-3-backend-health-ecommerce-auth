@@ -1,5 +1,5 @@
 {
-  "name": "secure-health-api-starter",
+  "name": "komdigi-fsd-intermediate-modul-3-backend-health-ecommerce-auth-starter",
   "version": "1.0.0",
   "description": "Secure Health E-Commerce API dengan Authentication - Starter Project",
   "main": "server.js",
@@ -26,7 +26,7 @@
     "helmet": "^7.0.0",
     "jsonwebtoken": "^9.0.0",
     "mongo-sanitize": "^1.1.0",
-    "mongoose": "^7.0.3",
+    "mongoose": "^8.0.0",
     "morgan": "^1.10.0",
     "swagger-ui-express": "^5.0.0",
     "yamljs": "^0.3.0"

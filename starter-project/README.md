@@ -116,13 +116,13 @@ Setelah implement semua TODOs, test API dengan tools berikut:
 
 **Test scenarios:**
 
-1. ✅ Register User → token auto-saved
-2. ✅ Login → update token
-3. ✅ Get Profile → authenticated otomatis
-4. ✅ Update Password → authenticated
-5. ❌ Unauthorized access → test tanpa token
-6. ❌ Invalid credentials → test error handling
-7. ❌ Validation errors → test missing fields
+1. Register User → token auto-saved
+2. Login → update token
+3. Get Profile → authenticated otomatis
+4. Update Password → authenticated
+5. Unauthorized access → test tanpa token
+6. Invalid credentials → test error handling
+7. Validation errors → test missing fields
 
 ---
 
